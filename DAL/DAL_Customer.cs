@@ -34,5 +34,11 @@ namespace DAL
             string s = "select * from Customer";
             return Connection.selectQuery(s);
         }
+
+        public DataTable select1ID(string customerID)
+        {
+            string query = "select * from Customer where CustomerID = '" + customerID + "'";
+            return Connection.selectQuery(query);
+        }
     }
 }
