@@ -168,6 +168,7 @@
             this.grdProduct.RowTemplate.Height = 29;
             this.grdProduct.Size = new System.Drawing.Size(873, 194);
             this.grdProduct.TabIndex = 17;
+            this.grdProduct.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdProduct_CellClick);
             // 
             // btnAdd
             // 
@@ -179,6 +180,7 @@
             this.btnAdd.TabIndex = 18;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnUpdate
             // 
@@ -190,6 +192,7 @@
             this.btnUpdate.TabIndex = 19;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
             // 
@@ -201,6 +204,7 @@
             this.btnDelete.TabIndex = 20;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnReset
             // 
@@ -212,6 +216,7 @@
             this.btnReset.TabIndex = 21;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnHome
             // 

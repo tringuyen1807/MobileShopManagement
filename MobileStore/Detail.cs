@@ -23,5 +23,10 @@ namespace MobileStore
             home.Show();
             this.Close();
         }
+
+        private void Detail_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

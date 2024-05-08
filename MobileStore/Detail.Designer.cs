@@ -62,7 +62,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(170, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(109, 40);
+            this.label1.Size = new System.Drawing.Size(105, 38);
             this.label1.TabIndex = 8;
             this.label1.Text = "Detail";
             // 
@@ -208,6 +208,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Detail";
             this.Text = "Detail";
+            this.Load += new System.EventHandler(this.Detail_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
