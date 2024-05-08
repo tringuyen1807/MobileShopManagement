@@ -35,5 +35,10 @@ namespace BUS
         {
             return c.selectQuery();
         }
+
+        public DataTable select1ID(string selectedID)
+        {
+            return c.select1ID(selectedID);
+        }
     }
 }
