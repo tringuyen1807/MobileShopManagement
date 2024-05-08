@@ -67,7 +67,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(171, 124);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 40);
+            this.label1.Size = new System.Drawing.Size(170, 38);
             this.label1.TabIndex = 7;
             this.label1.Text = "Customer";
             // 
@@ -152,6 +152,9 @@
             // cbGender
             // 
             this.cbGender.FormattingEnabled = true;
+            this.cbGender.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
             this.cbGender.Location = new System.Drawing.Point(470, 249);
             this.cbGender.Name = "cbGender";
             this.cbGender.Size = new System.Drawing.Size(94, 28);
@@ -179,6 +182,7 @@
             this.btnReset.TabIndex = 26;
             this.btnReset.Text = "Reset";
             this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnDelete
             // 
@@ -190,6 +194,7 @@
             this.btnDelete.TabIndex = 25;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -201,6 +206,7 @@
             this.btnUpdate.TabIndex = 24;
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnAdd
             // 
@@ -212,6 +218,7 @@
             this.btnAdd.TabIndex = 23;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // grdCustomer
             // 
@@ -223,6 +230,7 @@
             this.grdCustomer.RowTemplate.Height = 29;
             this.grdCustomer.Size = new System.Drawing.Size(873, 194);
             this.grdCustomer.TabIndex = 28;
+            this.grdCustomer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdCustomer_CellClick);
             // 
             // Customer
             // 
@@ -250,6 +258,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Customer";
             this.Text = "Purchased Mobile";
+            this.Load += new System.EventHandler(this.Customer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdCustomer)).EndInit();
             this.ResumeLayout(false);

@@ -11,6 +11,22 @@ namespace BUS
             p = new DAL_Product(mid, mname, series, storage, price);
         }
 
+        public void addQuery()
+        {
+            p.addQuery();
+        }
+
+        public void updateQuery()
+        {
+            p.updateQuery();
+        }
+
+        public void deleteQuery(string mobileID)
+        {
+            p.deleteQuery(mobileID);
+        }
+
+
         public DataTable selectQuery()
         {
             return p.selectQuery();
