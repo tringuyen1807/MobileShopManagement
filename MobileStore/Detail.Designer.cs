@@ -106,6 +106,7 @@
             this.lbCName.Size = new System.Drawing.Size(188, 27);
             this.lbCName.TabIndex = 19;
             this.lbCName.Text = "Customer Name";
+            this.lbCName.Visible = false;
             // 
             // label5
             // 
@@ -128,6 +129,7 @@
             this.lbGender.Size = new System.Drawing.Size(94, 27);
             this.lbGender.TabIndex = 21;
             this.lbGender.Text = "Gender";
+            this.lbGender.Visible = false;
             // 
             // label7
             // 
@@ -150,6 +152,7 @@
             this.lbPurchased.Size = new System.Drawing.Size(212, 27);
             this.lbPurchased.TabIndex = 23;
             this.lbPurchased.Text = "Purchased Mobile";
+            this.lbPurchased.Visible = false;
             // 
             // label9
             // 
@@ -172,6 +175,7 @@
             this.lbBill.Size = new System.Drawing.Size(50, 27);
             this.lbBill.TabIndex = 25;
             this.lbBill.Text = "Bill";
+            this.lbBill.Visible = false;
             // 
             // btnHome
             // 
@@ -218,6 +222,7 @@
             this.lbCID.Size = new System.Drawing.Size(148, 27);
             this.lbCID.TabIndex = 31;
             this.lbCID.Text = "Customer ID";
+            this.lbCID.Visible = false;
             // 
             // Detail
             // 
