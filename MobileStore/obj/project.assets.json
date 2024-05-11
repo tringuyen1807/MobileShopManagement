@@ -527,11 +527,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CNPM\\New folder\\final\\MobileStore\\MobileStore.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\MobileStore.csproj",
       "projectName": "MobileStore",
-      "projectPath": "D:\\CNPM\\New folder\\final\\MobileStore\\MobileStore.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\MobileStore.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\CNPM\\New folder\\final\\MobileStore\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -548,8 +548,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj": {
-              "projectPath": "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj"
+            "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj"
             }
           }
         }

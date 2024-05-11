@@ -64,9 +64,9 @@
             this.label1.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(170, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 38);
+            this.label1.Size = new System.Drawing.Size(126, 38);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Detail";
+            this.label1.Text = "Search";
             // 
             // label2
             // 
@@ -197,7 +197,7 @@
             this.btnReferesh.Name = "btnReferesh";
             this.btnReferesh.Size = new System.Drawing.Size(138, 47);
             this.btnReferesh.TabIndex = 29;
-            this.btnReferesh.Text = "Referesh";
+            this.btnReferesh.Text = "Search";
             this.btnReferesh.UseVisualStyleBackColor = false;
             this.btnReferesh.Click += new System.EventHandler(this.btnReferesh_Click);
             // 

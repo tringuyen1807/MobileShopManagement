@@ -509,11 +509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj",
       "projectName": "BUS",
-      "projectPath": "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\CNPM\\New folder\\final\\BUS\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -530,8 +530,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\CNPM\\New folder\\final\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\CNPM\\New folder\\final\\DAL\\DAL.csproj"
+            "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DAL\\DAL.csproj"
             }
           }
         }

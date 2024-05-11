@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y4ptuOW0cK9RYdUIc/7wJED9Er7f+QIHiVSs0yegwI/sg0v7DFwLDFPX6AdO3naDoPi72kJoaO0UoNInYLD92g==",
+  "dgSpecHash": "JncCiJP4RQVM+oAXPvA9Jf28RTTDnY/fPJGsPtEKE19s4TimuGveCYFz0YgyJV9R8DqW7ze2QGGNC+/v5Po6Gw==",
   "success": true,
-  "projectFilePath": "D:\\CNPM\\New folder\\final\\MobileStore\\MobileStore.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\MobileStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
