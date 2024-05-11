@@ -46,17 +46,17 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.SystemColors.Info;
-            this.label1.Location = new System.Drawing.Point(138, 151);
+            this.label1.Location = new System.Drawing.Point(553, 148);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(176, 33);
+            this.label1.Size = new System.Drawing.Size(141, 33);
             this.label1.TabIndex = 0;
-            this.label1.Text = "TV Mobile Shop";
+            this.label1.Text = "Admin Login";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(55, 214);
+            this.label2.Location = new System.Drawing.Point(450, 216);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(97, 27);
             this.label2.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(55, 247);
+            this.label3.Location = new System.Drawing.Point(450, 249);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(93, 27);
             this.label3.TabIndex = 2;
@@ -74,7 +74,7 @@
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(158, 214);
+            this.txtUsername.Location = new System.Drawing.Point(553, 216);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(207, 27);
             this.txtUsername.TabIndex = 3;
@@ -84,7 +84,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(158, 247);
+            this.txtPassword.Location = new System.Drawing.Point(553, 249);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(207, 27);
             this.txtPassword.TabIndex = 4;
@@ -97,7 +97,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnExit.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnExit.ForeColor = System.Drawing.SystemColors.Info;
-            this.btnExit.Location = new System.Drawing.Point(178, 404);
+            this.btnExit.Location = new System.Drawing.Point(659, 324);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(101, 41);
             this.btnExit.TabIndex = 5;
@@ -111,7 +111,7 @@
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLogin.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnLogin.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.btnLogin.Location = new System.Drawing.Point(178, 357);
+            this.btnLogin.Location = new System.Drawing.Point(533, 324);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(101, 41);
             this.btnLogin.TabIndex = 6;
@@ -125,7 +125,7 @@
             this.checkB_Hide.Checked = true;
             this.checkB_Hide.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkB_Hide.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkB_Hide.Location = new System.Drawing.Point(371, 253);
+            this.checkB_Hide.Location = new System.Drawing.Point(766, 255);
             this.checkB_Hide.Name = "checkB_Hide";
             this.checkB_Hide.Size = new System.Drawing.Size(18, 17);
             this.checkB_Hide.TabIndex = 7;
@@ -135,9 +135,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-212, -5);
+            this.pictureBox1.Location = new System.Drawing.Point(41, 62);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(886, 588);
+            this.pictureBox1.Size = new System.Drawing.Size(403, 327);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
@@ -147,7 +147,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
-            this.ClientSize = new System.Drawing.Size(471, 595);
+            this.ClientSize = new System.Drawing.Size(805, 462);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.checkB_Hide);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnExit);
@@ -156,7 +157,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Login";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

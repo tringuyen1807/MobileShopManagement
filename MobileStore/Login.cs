@@ -73,7 +73,7 @@ namespace MobileStore
                 }
                 else
                 {
-                    MessageBox.Show("Plese enter correct Admin Account");
+                    MessageBox.Show("Please enter correct Admin Account");
                 }
             }
             catch (Exception ex)
