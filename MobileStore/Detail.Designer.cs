@@ -45,6 +45,7 @@
             this.btnReferesh = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.lbCID = new System.Windows.Forms.Label();
+            this.btnExport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,9 +65,9 @@
             this.label1.Font = new System.Drawing.Font("Arial", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(170, 122);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 38);
+            this.label1.Size = new System.Drawing.Size(126, 38);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Detail";
+            this.label1.Text = "Search";
             // 
             // label2
             // 
@@ -181,7 +182,7 @@
             // 
             this.btnHome.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnHome.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.Location = new System.Drawing.Point(773, 162);
+            this.btnHome.Location = new System.Drawing.Point(840, 55);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(138, 47);
             this.btnHome.TabIndex = 28;
@@ -197,7 +198,7 @@
             this.btnReferesh.Name = "btnReferesh";
             this.btnReferesh.Size = new System.Drawing.Size(138, 47);
             this.btnReferesh.TabIndex = 29;
-            this.btnReferesh.Text = "Referesh";
+            this.btnReferesh.Text = "Search";
             this.btnReferesh.UseVisualStyleBackColor = false;
             this.btnReferesh.Click += new System.EventHandler(this.btnReferesh_Click);
             // 
@@ -224,12 +225,25 @@
             this.lbCID.Text = "Customer ID";
             this.lbCID.Visible = false;
             // 
+            // btnExport
+            // 
+            this.btnExport.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnExport.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExport.Location = new System.Drawing.Point(758, 162);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(138, 47);
+            this.btnExport.TabIndex = 32;
+            this.btnExport.Text = "Export PDF";
+            this.btnExport.UseVisualStyleBackColor = false;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
             // Detail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(990, 541);
+            this.Controls.Add(this.btnExport);
             this.Controls.Add(this.lbCID);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btnReferesh);
@@ -273,5 +287,6 @@
         private Button btnReferesh;
         private Label label11;
         private Label lbCID;
+        private Button btnExport;
     }
 }

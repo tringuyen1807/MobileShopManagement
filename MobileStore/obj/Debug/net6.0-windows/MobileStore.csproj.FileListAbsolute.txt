@@ -33,3 +33,11 @@ D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\BUS.pdb
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\DAL.pdb
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\DTO.pdb
 D:\CNPM\New folder\final\MobileStore\obj\Debug\net6.0-windows\MobileStore.csproj.CopyComplete
+D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\ClosedXML.dll
+D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
+D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\Irony.dll
+D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\XLParser.dll
+D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\itextsharp.dll

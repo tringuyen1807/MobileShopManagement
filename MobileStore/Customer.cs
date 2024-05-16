@@ -1,4 +1,5 @@
 ﻿using BUS;
+using ClosedXML.Excel;
 
 namespace MobileStore
 {
@@ -109,6 +110,30 @@ namespace MobileStore
             cbGender.Text = grdCustomer.CurrentRow.Cells[2].Value.ToString();
             txtPurchase.Text = grdCustomer.CurrentRow.Cells[3].Value.ToString();
             txtBill.Text = grdCustomer.CurrentRow.Cells[4].Value.ToString();
+        }
+
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "Excel Workbook|*.xlsx" })
+            {
+                if (sfd.ShowDialog() == DialogResult.OK)
+                {
+                    try
+                    {
+                        using (XLWorkbook wb = new XLWorkbook())
+                        {
+                            
+                            wb.Worksheets.Add((System.Data.DataTable)grdCustomer.DataSource, "Customers");
+                            wb.SaveAs(sfd.FileName);
+                        }
+                        MessageBox.Show("Data exported successfully.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error exporting data: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
         }
     }
 }

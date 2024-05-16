@@ -115,7 +115,7 @@
             this.btnDetail.Name = "btnDetail";
             this.btnDetail.Size = new System.Drawing.Size(225, 46);
             this.btnDetail.TabIndex = 10;
-            this.btnDetail.Text = "Detail";
+            this.btnDetail.Text = "Search";
             this.btnDetail.UseVisualStyleBackColor = false;
             this.btnDetail.Click += new System.EventHandler(this.btnDetail_Click);
             // 
