@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "h4NDRdPTdVSGFgy3Z58yUj1DfzkwwnDBaz/Wby2SXgP39YP6FH6ZIcQNE3gcMc9fjyFqatREvKQBORXzN2vRBA==",
+=======
+  "dgSpecHash": "JncCiJP4RQVM+oAXPvA9Jf28RTTDnY/fPJGsPtEKE19s4TimuGveCYFz0YgyJV9R8DqW7ze2QGGNC+/v5Po6Gw==",
+>>>>>>> master
   "success": true,
-  "projectFilePath": "D:\\CNPM\\New folder\\final\\MobileStore\\MobileStore.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\MobileStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\closedxml\\0.102.2\\closedxml.0.102.2.nupkg.sha512",

@@ -33,6 +33,7 @@ D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\BUS.pdb
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\DAL.pdb
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\DTO.pdb
 D:\CNPM\New folder\final\MobileStore\obj\Debug\net6.0-windows\MobileStore.csproj.CopyComplete
+<<<<<<< HEAD
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\ClosedXML.dll
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
@@ -41,3 +42,40 @@ D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\SixLabors.Fonts.dl
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\XLParser.dll
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
 D:\CNPM\New folder\final\MobileStore\bin\Debug\net6.0-windows\itextsharp.dll
+=======
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\MobileStore.exe
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\MobileStore.deps.json
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\MobileStore.runtimeconfig.json
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\MobileStore.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\MobileStore.pdb
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\BUS.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\DAL.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\DTO.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\BUS.pdb
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\DAL.pdb
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\bin\Debug\net6.0-windows\DTO.pdb
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.Customer.resources
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.Detail.resources
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.Home.resources
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.Login.resources
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.Product.resources
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.Properties.Resources.resources
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.AssemblyInfo.cs
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.csproj.CopyComplete
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\refint\MobileStore.dll
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.pdb
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\MobileStore.genruntimeconfig.cache
+C:\Users\Admin\Desktop\MobileShopManagement\MobileStore\obj\Debug\net6.0-windows\ref\MobileStore.dll
+>>>>>>> master

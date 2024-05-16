@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CNPM\\New folder\\final\\MobileStore\\MobileStore.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\MobileStore.csproj": {}
   },
   "projects": {
-    "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj": {
+    "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj",
         "projectName": "BUS",
-        "projectPath": "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\CNPM\\New folder\\final\\BUS\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\CNPM\\New folder\\final\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\CNPM\\New folder\\final\\DAL\\DAL.csproj"
+              "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DAL\\DAL.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\CNPM\\New folder\\final\\DAL\\DAL.csproj": {
+    "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CNPM\\New folder\\final\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\CNPM\\New folder\\final\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\CNPM\\New folder\\final\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,8 +87,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\CNPM\\New folder\\final\\DTO\\DTO.csproj": {
-                "projectPath": "D:\\CNPM\\New folder\\final\\DTO\\DTO.csproj"
+              "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DTO\\DTO.csproj"
               }
             }
           }
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\CNPM\\New folder\\final\\DTO\\DTO.csproj": {
+    "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CNPM\\New folder\\final\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "D:\\CNPM\\New folder\\final\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\CNPM\\New folder\\final\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,14 +183,14 @@
         }
       }
     },
-    "D:\\CNPM\\New folder\\final\\MobileStore\\MobileStore.csproj": {
+    "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\MobileStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CNPM\\New folder\\final\\MobileStore\\MobileStore.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\MobileStore.csproj",
         "projectName": "MobileStore",
-        "projectPath": "D:\\CNPM\\New folder\\final\\MobileStore\\MobileStore.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\MobileStore.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\CNPM\\New folder\\final\\MobileStore\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\MobileStore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,8 +207,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj": {
-                "projectPath": "D:\\CNPM\\New folder\\final\\BUS\\BUS.csproj"
+              "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj": {
+                "projectPath": "C:\\Users\\Admin\\Desktop\\MobileShopManagement\\BUS\\BUS.csproj"
               }
             }
           }
