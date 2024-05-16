@@ -1,4 +1,6 @@
 ﻿using BUS;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -79,6 +81,47 @@ namespace MobileStore
         private void btnReferesh_Click(object sender, EventArgs e)
         {
             FetchCus();
+        }
+
+        private void btnExport_Click(object sender, EventArgs e)
+        {
+            if (lbCID.Visible)
+            {
+                try
+                {
+                    using (SaveFileDialog sfd = new SaveFileDialog() { Filter = "PDF files|*.pdf", FileName = "CustomerDetail.pdf" })
+                    {
+                        if (sfd.ShowDialog() == DialogResult.OK)
+                        {
+                            Document doc = new Document(PageSize.A4);
+                            PdfWriter.GetInstance(doc, new FileStream(sfd.FileName, FileMode.Create));
+                            doc.Open();
+
+                            // Thêm tiêu đề
+                            doc.Add(new Paragraph("Customer Details"));
+                            doc.Add(new Paragraph(" ")); // Dòng trống
+
+                            // Thêm thông tin khách hàng
+                            doc.Add(new Paragraph("Customer ID: " + lbCID.Text));
+                            doc.Add(new Paragraph("Customer Name: " + lbCName.Text));
+                            doc.Add(new Paragraph("Gender: " + lbGender.Text));
+                            doc.Add(new Paragraph("Purchased Mobile: " + lbPurchased.Text));
+                            doc.Add(new Paragraph("Bill: " + lbBill.Text));
+
+                            doc.Close();
+                            MessageBox.Show("PDF file created successfully.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error creating PDF: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please fetch customer information before exporting to PDF.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
     }
 }

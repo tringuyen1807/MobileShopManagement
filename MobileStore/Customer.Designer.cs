@@ -47,6 +47,7 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.grdCustomer = new System.Windows.Forms.DataGridView();
+            this.btnExport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdCustomer)).BeginInit();
             this.SuspendLayout();
@@ -232,12 +233,25 @@
             this.grdCustomer.TabIndex = 28;
             this.grdCustomer.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdCustomer_CellClick);
             // 
+            // btnExport
+            // 
+            this.btnExport.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnExport.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExport.Location = new System.Drawing.Point(786, 115);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(138, 47);
+            this.btnExport.TabIndex = 29;
+            this.btnExport.Text = "Export Excel";
+            this.btnExport.UseVisualStyleBackColor = false;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
             // Customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(990, 541);
+            this.Controls.Add(this.btnExport);
             this.Controls.Add(this.grdCustomer);
             this.Controls.Add(this.btnHome);
             this.Controls.Add(this.btnReset);
@@ -286,5 +300,6 @@
         private Button btnUpdate;
         private Button btnAdd;
         private DataGridView grdCustomer;
+        private Button btnExport;
     }
 }

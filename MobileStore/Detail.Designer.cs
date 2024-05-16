@@ -45,6 +45,7 @@
             this.btnReferesh = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.lbCID = new System.Windows.Forms.Label();
+            this.btnExport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -181,7 +182,7 @@
             // 
             this.btnHome.BackColor = System.Drawing.Color.DarkSlateGray;
             this.btnHome.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnHome.Location = new System.Drawing.Point(773, 162);
+            this.btnHome.Location = new System.Drawing.Point(840, 55);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(138, 47);
             this.btnHome.TabIndex = 28;
@@ -224,12 +225,25 @@
             this.lbCID.Text = "Customer ID";
             this.lbCID.Visible = false;
             // 
+            // btnExport
+            // 
+            this.btnExport.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnExport.Font = new System.Drawing.Font("Arial Narrow", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnExport.Location = new System.Drawing.Point(758, 162);
+            this.btnExport.Name = "btnExport";
+            this.btnExport.Size = new System.Drawing.Size(138, 47);
+            this.btnExport.TabIndex = 32;
+            this.btnExport.Text = "Export PDF";
+            this.btnExport.UseVisualStyleBackColor = false;
+            this.btnExport.Click += new System.EventHandler(this.btnExport_Click);
+            // 
             // Detail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(990, 541);
+            this.Controls.Add(this.btnExport);
             this.Controls.Add(this.lbCID);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.btnReferesh);
@@ -273,5 +287,6 @@
         private Button btnReferesh;
         private Label label11;
         private Label lbCID;
+        private Button btnExport;
     }
 }
